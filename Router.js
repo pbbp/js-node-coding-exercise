@@ -1,13 +1,20 @@
-const fs = require('fs');
+const jade = require('jade');
 
 class Router {
 
     getRoute(urlPath, callback) {
+        let template = jade.compileFile(__dirname + '/views/404.jade');
+
         try {
-            fs.readFile(__dirname + '/views' + urlPath + '.html', callback);
+            template = jade.compileFile(__dirname + '/views' + urlPath + '.jade');
+            callback(template());
+
         } catch (err) {
-            callback(err, null);
+            console.log(err);
+            callback(template(), true);
         }
+
+
     }
 }
 
