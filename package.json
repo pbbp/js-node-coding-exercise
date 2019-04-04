@@ -21,6 +21,9 @@
     "jade": "^1.11.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.1.0",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.10.2"
   }
 }

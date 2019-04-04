@@ -1,6 +1,6 @@
 const Date = require('./DatePicker');
-const Router = require('./Router');
-const IndexController = require('./controllers/IndexController');
+const Router = require('./src/js/Router');
+const IndexController = require('./src/js/controllers/IndexController');
 
 console.log(new Date().today);
 
