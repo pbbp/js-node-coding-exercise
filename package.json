@@ -1,0 +1,26 @@
+{
+  "name": "js-node-coding-exercise",
+  "version": "1.0.0",
+  "description": "Following exercises in http://nicholasjohnson.com/node/course/exercises",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "jade": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbbp/js-node-coding-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbbp/js-node-coding-exercise/issues"
+  },
+  "homepage": "https://github.com/pbbp/js-node-coding-exercise#readme"
+}
